@@ -26,6 +26,7 @@ body {
   transform: translateY(-50%);
   border: 30px solid white;
   border-radius: 100%;
+  background-position: center;
 }
 .main div {
   position: absolute;
@@ -63,4 +64,20 @@ body {
 .keep {
   font-family: 'Lobster Two', cursive;
   font-size: 120px;
+}
+@media screen and (max-width: 650px) {
+  .main {
+    transform: translateX(-50%);
+    top: 10%;
+    left: 50%;
+    height: 350px;
+    width: 350px;
+  }
+  .quote {
+    font-size: 50px;
+    top: 75%;
+  }
+  .keep {
+    font-size: 65px;
+  }
 }
